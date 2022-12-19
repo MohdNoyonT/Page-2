@@ -248,4 +248,10 @@
         padding: 8px 10px;
         width: 90px;
     }
+	.useable {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 10px;
+    margin-left: 10px;
+}
 }
