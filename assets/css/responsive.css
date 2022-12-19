@@ -93,6 +93,11 @@
         padding: 8px 10px;
         width: auto;
     }
+	.useable {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+}
 }
 @media only screen and (max-width: 421px){
 	section.main-menu.sec {
