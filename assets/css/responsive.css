@@ -47,6 +47,11 @@
     section.main-menu.sec {
         width: 815px;
     }
+	.useable {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+}
 }
 @media only screen and (max-width: 790px){
  section.main-menu.sec {
