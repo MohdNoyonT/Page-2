@@ -35,6 +35,12 @@
         width: 990px;
         margin-left: 10px;
     }
+	.useable {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+    margin-left: 8px;
+}
     .glider {
         display: grid;
         grid-template-columns: repeat(3, 1fr);
